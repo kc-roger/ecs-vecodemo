@@ -117,10 +117,6 @@ data:
           track:
             - car
             - person
-        detectors:
-          cpu1:
-            type: cpu
-            num_threads: 3
         snapshots:
           enabled: true
           timestamp: true
@@ -149,4 +145,4 @@ data:
             - orange
             - broccoli
             - carrot
-    version: 0.21
+    version: 0.22
