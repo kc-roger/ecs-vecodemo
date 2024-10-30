@@ -118,9 +118,9 @@ data:
             - car
             - person
         detectors:
-          cpu1:
-            type: cpu
-            num_threads: 3
+          ov:
+            type: openvino
+            device: GPU
         snapshots:
           enabled: true
           timestamp: true
@@ -149,4 +149,4 @@ data:
             - orange
             - broccoli
             - carrot
-    version: 0.19
+    version: 0.20
