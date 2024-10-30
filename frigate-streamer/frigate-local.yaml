@@ -112,7 +112,7 @@ data:
         detect:
           width: 1280
           height: 960
-          fps: 10
+          fps: 15
         objects:
           track:
             - car
@@ -145,4 +145,4 @@ data:
             - orange
             - broccoli
             - carrot
-    version: 0.17
+    version: 0.18
